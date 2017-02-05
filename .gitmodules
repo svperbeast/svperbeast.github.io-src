@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:svperbeast/svperbeast.github.io.git
