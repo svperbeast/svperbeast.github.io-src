@@ -34,7 +34,9 @@ THEME = 'themes/pelican-themes/bootstrap2'
 
 # need to clone pelican-plugins into 'plugins/'
 PLUGIN_PATHS = ['plugins/pelican-plugins']
-PLUGINS = ['autopages']
+PLUGINS = ['autopages', 'tag_cloud']
+
+DISQUS_SITENAME = 'svperbeast-blog'
 
 GOOGLE_ANALYTICS_ID = ''
 GOOGLE_ANALYTICS_SITENAME = ''

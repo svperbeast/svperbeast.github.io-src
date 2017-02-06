@@ -33,8 +33,7 @@ Pattern matching 연산으로 IPv4 data를 파싱하는 erlang code
         SrcIP:32
         ...
 
-Packing, Unpacking three integers
-(http://docs.python.org/2/library/struct.html#examples):
+[Packing, Unpacking three integers](http://docs.python.org/2/library/struct.html#examples):
 
     >>> from struct import *
     >>> pack('hhl', 1, 2, 3)
